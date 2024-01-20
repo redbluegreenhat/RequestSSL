@@ -11,6 +11,9 @@
 	"peerDependencies": {
 		"postcss-less": "6.0.0"
 	},
+	{
+	"ignorePatterns": ["vendor/*"]
+        },
 	"devDependencies": {
 		"eslint-config-wikimedia": "0.24.0",
 		"grunt-banana-checker": "0.10.0",
